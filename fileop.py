@@ -6,4 +6,5 @@ prompt = ">"
 filename = raw_input(prompt)
 
 text = open(filename)
+print "File content"
 print text.read()
